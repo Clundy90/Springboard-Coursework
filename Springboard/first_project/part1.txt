@@ -1,0 +1,20 @@
+clundy@Peppino:~/Springboard/first_project$ mkdir first
+clundy@Peppino:~/Springboard/first_project$ cd first
+clundy@Peppino:~/Springboard/first_project/first$ touch person.txt
+clundy@Peppino:~/Springboard/first_project/first$ mv person.txt another.txt
+clundy@Peppino:~/Springboard/first_project/first$ cp another.txt copy.txt
+clundy@Peppino:~/Springboard/first_project/first$ ls
+another.txt  copy.txt
+clundy@Peppino:~/Springboard/first_project/first$ rm copy.txt
+clundy@Peppino:~/Springboard/first_project/first$ ls
+another.txt
+clundy@Peppino:~/Springboard/first_project/first$ cp -r first second
+cp: cannot stat 'first': No such file or directory
+clundy@Peppino:~/Springboard/first_project/first$ cd ..
+clundy@Peppino:~/Springboard/first_project$ cp -r first second
+clundy@Peppino:~/Springboard/first_project$ ls
+first  part1.txt  part2.txt  second
+clundy@Peppino:~/Springboard/first_project$ rm -rf second
+clundy@Peppino:~/Springboard/first_project$ ls
+first  part1.txt  part2.txt
+clundy@Peppino:~/Springboard/first_project$

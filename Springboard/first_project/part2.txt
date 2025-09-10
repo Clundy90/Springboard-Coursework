@@ -1,0 +1,11 @@
+The man command lists the manual for a command. Scroll using up and down arrows and q to quit. Or Control ⌃-D to advance half a page B or Control ⌃-B to go back one page U or Control ⌃-U to go back half a page.
+The `-l` flag lists files in a list format with more detail and the `-a` lists all files and folders including hidden ones.
+option(alt) left/right
+control + e
+control + a
+option (alt) + delete
+The terminal is a program is just an interface to the shell. The shell is what actually handles commands and so forth; the terminal program just gives it a way to interact with the environment.
+An absolute path is a path that starts from the root route and gives the complete location for a file or folder.
+A relative path is a path that starts at the current location and not the root route
+A flag adds additional functionality to an existing command like ls -a, ls -l or ls -al.  -r for the cp and rm commands
+ R will remove folders and recursively go through each folder and file and f will force removal. In other words rm -rf will delete the folder and all their content.
